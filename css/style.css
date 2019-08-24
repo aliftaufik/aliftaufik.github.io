@@ -16,6 +16,7 @@ section {
 
 .more a {
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 
 .image {
@@ -30,6 +31,8 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 10;
+    background-color: rgba(167, 167, 167, 0.7);
+    font-family: "Montserrat", sans-serif;
 }
 
 nav ul {
@@ -45,9 +48,14 @@ nav a {
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
+    color: #fff;
 }
 
 /* Jumbotron */
+.jumbotron {
+    background-color: rgb(65, 65, 65);
+}
+
 .jumbotron .content {
     text-align: center;
 }
@@ -59,16 +67,25 @@ nav a {
 
 .jumbotron h1 {
     font-size: 48px;
+    color: rgb(80, 197, 206);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
 
 .jumbotron h2 {
     font-size: 24px;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
 }
 
 .jumbotron .more {
     width: 100%;
     position: absolute;
     bottom: 0;
+}
+
+.jumbotron .more a {
+    color: #fff;
 }
 
 /* About Me */
@@ -97,6 +114,13 @@ nav a {
     font-size: 32px;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.about .me p {
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
 }
 
 .about .more {
@@ -106,10 +130,16 @@ nav a {
     bottom: 0;
 }
 
+.about .more a {
+    color: rgb(65, 65, 65);
+}
+
 /* Project Portofolio */
 .portofolio .projects h1 {
     font-size: 24px;
     margin: 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
 
 .portofolio .projects {
@@ -122,6 +152,7 @@ nav a {
     display: inline-block;
     box-sizing: border-box;
     width: 33%;
+    font-family: "Montserrat", sans-serif;
 }
 
 .portofolio .col .image {
@@ -137,6 +168,8 @@ footer h1 {
     font-size: 24px;
     margin-top: 30px;
     margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
 
 footer li {
@@ -145,4 +178,5 @@ footer li {
 
 footer .copy {
     text-align: center;
+    font-family: "Roboto Slab", serif;
 }
