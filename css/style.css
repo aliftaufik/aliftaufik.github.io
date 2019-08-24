@@ -135,11 +135,15 @@ nav a {
 }
 
 /* Project Portofolio */
+.portofolio {
+    background-color: rgb(65, 65, 65);
+}
 .portofolio .projects h1 {
     font-size: 24px;
     margin: 10px 0;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
+    color: #fff;
 }
 
 .portofolio .projects {
@@ -157,6 +161,7 @@ nav a {
 
 .portofolio .col .image {
     height: 200px;
+    border-color: rgb(189, 189, 189);
 }
 
 /* Footer */
