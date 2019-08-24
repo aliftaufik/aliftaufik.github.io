@@ -1,0 +1,60 @@
+/* Global */
+* {
+    border: 1px solid black !important;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    padding: 40px 20px;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 620px;
+}
+
+.jumbotron .content {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jumbotron .text {
+    position: relative;
+    top: 200px;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+}
+
+.jumbotron h2 {
+    font-size: 24px;
+}
+
+.jumbotron .more {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/* About Me */
+/* Project Portofolio */
+/* Footer */
