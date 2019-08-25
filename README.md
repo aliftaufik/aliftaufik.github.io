@@ -7,3 +7,4 @@ This site is used as my personal portofolio website. As the time goes, and my ex
 * `<footer>` To put contact info and copyright sign
 * `<form>` for people who wants to subscribe to my feed
 # About Me
+I'm a future full-stack engineer. Right now I'm studying full-stack immersive program at Hacktiv8. Hopefully in 4,5 months I will be able to develop webapps and Android/iOS apps from scratch, then start my career and continue to grow as a developer in line with fast-paced innovation in technology.
