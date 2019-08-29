@@ -116,18 +116,21 @@ nav a {
 .about .content .profile {
     position: relative;
     top: 200px;
+    display: grid;
+    grid-template: 1fr / 1fr 4fr;
+    grid-column-gap: 45px;
+    justify-items: center;
 }
 
-.about .profile div {
+/* .about .profile div {
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
-}
+} */
 
 .about .image {
-    max-width: 25%;
+    max-width: 100%;
     border: none;
-    margin-right: 20px;
 }
 
 .about .image img {
@@ -138,8 +141,6 @@ nav a {
 }
 
 .about .me {
-    width: 70%;
-    margin: 0;
     color: #474954;
 }
 
