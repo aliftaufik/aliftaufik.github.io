@@ -3,8 +3,23 @@
     border: 1px solid black !important;
 } */
 
+/* 
+    color palettes:
+    Sea Serpent: #50c5ce (blueish); -> jumbotron h1
+    Mountbatten Pink: #9e788f (purple pink);
+    Roman Silver: #8c899e (dark purple); 
+    Wild Blue Yonder: #a9b3ce; -> nav bg color, footer form
+    Shadow Blue: #7284a8;
+    Outer Space: #474954 (blackish); -> jumbotron bg color, dark text, footer copyright
+    Platinum: #e7e8e8 (white); -> about bg color, footer bg color, body bg color, light text
+*/
+
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e7e8e8;
 }
 
 .content {
@@ -35,12 +50,12 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 10;
-    background-color: rgba(167, 167, 167, 0.7);
+    background-color: #a9b3cec7;
     font-family: "Montserrat", sans-serif;
 }
 
 nav ul {
-    padding: 40px 20px;
+    padding: 25px 20px;
 }
 
 nav li {
@@ -52,12 +67,13 @@ nav a {
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
-    color: #fff;
+    color: #e7e8e8;
 }
 
 /* Jumbotron */
 .jumbotron {
-    background-color: rgb(65, 65, 65);
+    background-color: #474954;
+    /* border-bottom: 20px solid #9e788f; */
 }
 
 .jumbotron .content {
@@ -71,14 +87,14 @@ nav a {
 
 .jumbotron h1 {
     font-size: 48px;
-    color: rgb(80, 197, 206);
+    color: #50c5ce;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
 }
 
 .jumbotron h2 {
     font-size: 24px;
-    color: #fff;
+    color: #e7e8e8;
     font-family: "Roboto Slab", serif;
 }
 
@@ -89,10 +105,14 @@ nav a {
 }
 
 .jumbotron .more a {
-    color: #fff;
+    color: #e7e8e8;
 }
 
 /* About Me */
+.about {
+    background-color: #e7e8e8;
+}
+
 .about .content .profile {
     position: relative;
     top: 200px;
@@ -100,25 +120,27 @@ nav a {
 
 .about .profile div {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     box-sizing: border-box;
 }
 
 .about .image {
-    width: 20%;
+    max-width: 25%;
     border: none;
     margin-right: 20px;
 }
 
 .about .image img {
     image-orientation: from-image;
+    width: 100%;
     border-radius: 100%;
-    border: 7px solid rgb(240, 240, 240);
+    border: 7px solid #474954;
 }
 
 .about .me {
     width: 70%;
     margin: 0;
+    color: #474954;
 }
 
 .about .me h1 {
@@ -141,19 +163,19 @@ nav a {
 }
 
 .about .more a {
-    color: rgb(65, 65, 65);
+    color: #474954;
 }
 
 /* Project Portofolio */
 .portofolio {
-    background-color: rgb(65, 65, 65);
+    background-color: #474954;
 }
 .portofolio .projects h1 {
     font-size: 24px;
     margin: 10px 0;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
-    color: #fff;
+    color: #e7e8e8;
 }
 
 .portofolio .projects {
@@ -161,21 +183,27 @@ nav a {
     top: 200px;
 }
 
-.portofolio .col {
+.portofolio .grid {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.portofolio .item {
     text-align: center;
-    display: inline-block;
     box-sizing: border-box;
-    width: 33%;
     font-family: "Montserrat", sans-serif;
 }
 
-.portofolio .col .image {
+.portofolio .item .image {
     height: 200px;
     border-color: rgb(189, 189, 189);
 }
 
 /* Footer */
 footer {
+    color: #474954;
+    background-color: #e7e8e8;
     height: 420px;
     font-family: "Open Sans", sans-serif;
 }
@@ -188,7 +216,7 @@ footer h1 {
 }
 
 footer form {
-    background-color: rgb(189, 189, 189);
+    background-color: #a9b3ce;
     display: inline-block;
     padding: 30px 20px;
     border-radius: 15px;
@@ -206,6 +234,10 @@ footer li {
 }
 
 footer .copy {
+    padding: 10px;
+    font-weight: bold;
     text-align: center;
-    font-family: "Roboto Slab", serif;
+    font-family: "Montserrat", serif;
+    background-color: #474954;
+    color: #e7e8e8;
 }
