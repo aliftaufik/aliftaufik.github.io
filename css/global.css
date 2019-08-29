@@ -14,23 +14,15 @@
     Platinum: #e7e8e8 (white); -> about bg color, footer bg color, body bg color, light text
 */
 
+/* 
+    Font used:
+    "Montserrat", sans-serif -> Normal, Bold
+    "Open Sans", sans-serif -> Normal, Bold
+    "Roboto Slab", serif -> Normal
+*/
+
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    background-color: #e7e8e8;
-}
-
-.content {
-    width: 75%;
-    height: 100%;
-    position: relative;
-    margin: 0 auto;
-}
-
-section {
-    height: 620px;
 }
 
 .more a {
@@ -73,16 +65,10 @@ nav a {
 /* Jumbotron */
 .jumbotron {
     background-color: #474954;
-    /* border-bottom: 20px solid #9e788f; */
 }
 
 .jumbotron .content {
     text-align: center;
-}
-
-.jumbotron .text {
-    position: relative;
-    top: 200px;
 }
 
 .jumbotron h1 {
@@ -202,12 +188,6 @@ nav a {
 }
 
 /* Footer */
-footer {
-    color: #474954;
-    background-color: #e7e8e8;
-    height: 420px;
-    font-family: "Open Sans", sans-serif;
-}
 
 footer h1 {
     font-size: 24px;

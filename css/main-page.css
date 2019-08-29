@@ -1,0 +1,29 @@
+/* Global */
+section {
+    height: 620px;
+}
+
+body {
+    background-color: #e7e8e8;
+}
+
+.content {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Jumbotron */
+.jumbotron .text {
+    position: relative;
+    top: 200px;
+}
+
+/* Footer */
+footer {
+    color: #474954;
+    background-color: #e7e8e8;
+    height: 420px;
+    font-family: "Open Sans", sans-serif;
+}
