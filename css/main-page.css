@@ -1,23 +1,27 @@
 /* Global */
-section {
+/* section {
     height: 620px;
-}
+} */
 
 body {
     background-color: #e7e8e8;
 }
 
-.content {
+/* .content {
     width: 75%;
     height: 100%;
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
 
 /* Jumbotron */
-.jumbotron .text {
+/* .jumbotron .text {
     position: relative;
     top: 200px;
+} */
+
+.jumbotron {
+    height: 100vh;
 }
 
 /* Footer */
